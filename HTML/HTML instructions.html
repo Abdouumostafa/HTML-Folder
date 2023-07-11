@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- the universal coding which we will use always and support arabic languagge -->
+    <meta charset="UTF-8" />
+    <!-- The title of the website page -->
+    <title> Clothes store</title>
+    <!-- The description which we can see under the title of website page -->
+    <meta name="description" content="Come on and start your summer season with fantastic clothes ">
+</head>
+
+<body>
+    <!-- From h1 biggest to h6 smallest and must use them for titles in order from largest to smallest -->
+    <h2>Double A clothes store</h2>
+    <h3> Welcome to my clothes store </h3>
+    <!--<p></p> To seperate the paragraphs between each other -->
+    <!-- <b></b> = Bold -->
+    <!--<strong></strong> most important than Bold  -->
+    <!-- <i></i> = Italic -->
+    <!-- <em></em> = emphasized , important more than Bold -->
+    <!-- <mark></mark> = mark the text -->
+    <!-- <u></u> = underline -->
+    <!-- <small></small> = smaller text -->
+    <!-- <del></del> = deleted text  -->
+    <!-- <ins></ins> = inserted text , additional and new thing -->
+    <!-- <sub></sub> = subscript -->
+    <!-- <sup></sup> = superscript -->
+    <!-- <a herf="Adding the link here or email contact"> writing the text which will be seen</a> -->
+    <!-- <a herf=".." target="_blank"> to open the link in new page to avoid losing anything in the same page</a> -->
+    <!-- <a herf=".." target="_blank" title"="the people can see title before clicking the link"</a> -->
+    <!-- <a herf="#ID" title="" </a> to guide to certain paragraph in the same page-->
+    <!-- <img src= "name of folder or ../" alt="alternate text if the picture is not existing " width="" hight="" >-->
+    <!-- 
+            <ul> unorderd list
+                <li> list item </li>
+                <li> list item </li>
+                <li> list item 
+                    <ul>
+                        <li> list item </li>
+                    </ul>
+                </li>
+            </ul>
+            <ol type="A a 1 i I"> orderd list , start="100 & reversed="reverse the ordering"
+                <li value="50"> list item </li>
+                <li> list item </li>
+            </ol>
+          -->
+    <!-- 
+            <dl> description list
+                <dt> description term </dt>
+                <dd> description of the term </dd>
+            </dl>
+           -->
+    <!-- 
+            <table>
+               <caption> title of the table </caption>
+                <thead>
+                    <tr> .. table row
+                        <td> 1111 </td> .. table data cell
+                        <td> 2222 </td>
+                        <td> 3333 </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                     <td> 1111 </td>
+                     <td> 2222 </td>
+                     <td> 3333 </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"> total </td>
+                        <td> 3333 </td>
+                    </tr>
+                </tfoot>
+            </table>
+            NOTE: we can use <th></th> instead of <td></td> to make the font Bold = table header cell
+            NOTE: we can make it better by CSS
+            -->
+    <!-- 
+                <span style="color:blue ; font-size: larger;"> to control and make anything i want in this word only </span>
+             -->
+    <!-- <hr> = to make horizontal line -->
+    <!-- 
+                <div>  to contain all part that included inside </div>
+              -->
+    <!-- 
+                HTML entities: 
+               &mdash; , &quot; , &nbsp; , &rsaquo; , &lt; , &gt; , &amp; , &asymp; , &copy; , &copysr; , &radic;
+                AND you can search about HTML entities list
+               -->
+    <!-- 
+                <header> Head of website </header>
+                <nav> Navigation </nav>
+                <section> content of website
+                    <section> right side </section>
+                    <aside> left side </aside>
+                    <article> article </article>
+                </section>
+                <footer> footer </footer>
+                -->
+    <!-- 
+                    <header>
+                        <nav></nav>
+                        <section>
+                          <figure>
+                            <img scr="" alt="">
+                            <figcaption> caption of image </figcaption>
+                          </figure>
+                        </section>
+                    </header>
+                 -->
+    <!-- 
+                    <audio controls=show controls autoplay=automatically play loop=return the audio muted=mute the audio>
+                        <source scr=""> type="You can get it by searching as mp3"
+                        Your browser does not support audio tag
+                    </audio>
+                  -->
+    <!-- 
+                    <video controls=show controls widht="600" height="400" poster="the image which will appear until the video start" >
+                        <source scr="" type="you can get it by searching such as mp4">
+                        Your browser does not support video tag
+                    </video>
+                   -->
+    <!-- 
+                    <form action="the source which will recieve the data" method="post or get"> get= the information appear above post= the information does not appear above ,, nonvalidate=to br nonvalidate at all,, target="blank"
+                        <lable> to decribe what is requisted </lable>
+                        <input> box to write things in
+                        <input type="text" name="user"> for example:Name , adress , subject
+                        <input type="password" name="pass"> for password
+                        <input type="submit" value="save"> to send your data to the page
+                        <input required> inputs that should be fill and required 
+                        WE CAN NOT TO USE <lable> AND USE THIS IMSTEAD:
+                        <input placeholder="ex:username">
+                        <input type="email"
+                        <input type="hidden" value=""> data is send with the information but hidden
+                        <input type="reset" value="reset">
+                        <lable>color</lable>
+                        <input type="color" name="color">
+                        <lable> range </lable>
+                        <input type="range" name="range" min="0" max="100" step="20" value="0"
+                        <lable>Number</lable>
+                        <input type="number" name="number" min="0" max="100" step="20" value="0"
+                        <input readonly> can not to change the item or edit it
+                        <input disabled> can not to change or send the information
+                        <input autofocus> to focus automatically in this input
+                        <input minlength="10" maxlenght="20"> number of charachteristics 
+                        <input type="radio" name="" value=""> to choose only one choice
+                        <lable> id="anything"</lable>
+                        <input for="anything"> to attach lable with input
+                        <input type="checkbox"> to select more than one choice
+                        Value= the item or data which will be send
+                        <lablel for="book"> choose book:</lable>
+                            <select name="book" id="book" multiple=to choose more than one item>
+                                <optgroup lable="any name">
+                                <option value="1"> Book1 </option>
+                                <option value="2"> Book2 </option>
+                                <option value="3"> Book3 </option>
+                                </optgroup>
+                                <optgroup lable="any name">
+                                <option value="4" selected=to be selected in first > Book4 </option>
+                                <option value="5"> Book5 </option>
+                                <option value="6"> Book6 </option>
+                                </optgroup>
+                                <textarea name="" clos="30" rows="10" placeholder=""></textarea>
+                            </select>
+                            <input type="file">
+                            <input type="search">
+                            <input type="URL"> should to write only links
+                            <input type="date">
+                            <input type="time">
+                            <input type="month">
+                            <input list="programming" name="prog">
+                            <datalist id="programming">
+                                <option value="HTML">
+                                <option value="CSS">
+                                <option value="Javascribt">
+                                <option value="C++">
+                            </datalist>
+                            the diffrence between select and datalist that you can search
+                    </form>
+                    -->
+    <!-- 
+                        <q> to write a qoate </q>
+                        <blockquoate></blockqoate>
+                        <button> click </button>
+                        if there is a long link you can use <wbr> to break it
+                        if there is arabic with english such as: السلام 2 welcome
+                        you can use <bdi>السلام</bdi> 2 welcomw
+                     -->
+    <!-- 
+                        <pre> 
+                            it is
+                            the
+                            end
+                        </pre> to save the shape to be the same
+                        <code> if you like to write a code </code>
+                     -->
+    <!-- 
+                        revise part 35 in el zero web
+                      -->
+    <!-- 
+                        <br>= causes the browser to move to the next line
+                        <blockquote></blockquote> = display a block of quoted text in a special way indented from both the left and right margins
+                        <cite> = used for citation or reference and usually displayed in italics
+                        <code> = is is used for a code
+                        <dfn> = a definitions of a word or a term  and usually display in italics
+                       -->
+    <!-- 
+                        To make icon for website page:
+                        <link rel="shortcut icon" href="../doubleA5.png">
+                        -->
+    page 5 , 10 , 12 , 18 ,*22* , *27-29*
+
+</body>
+
+</html>
